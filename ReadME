@@ -1,0 +1,30 @@
+Advice Generator App
+
+Overview
+The Advice Generator App fetches random pieces of advice from the Advice Slip API and displays them in a clean, responsive interface. Users can click a button to receive new advice, and the layout adapts to different screen sizes for a seamless experience on mobile and desktop devices.
+
+Technologies Used
+HTML: Structure and layout of the app.
+CSS: Styling the app based on the provided style guide, ensuring responsiveness.
+JavaScript: Handles asynchronous API requests and dynamically updates the UI.
+Advice Slip API: Used to fetch random advice via a GET request.
+Features
+
+Responsive Design: The app adapts to different screen sizes, providing a mobile-first experience that scales to larger devices (up to 1440px).
+API Integration: Uses fetch to retrieve advice from the API and display it.
+User Interaction: Simple button for fetching new advice. Includes error handling in case of a failed API request.
+
+Design
+Color Scheme:
+Background: Light Cyan
+Button: Neon Green
+Text: Grayish Blue
+Typography:
+Font: Manrope (weight 800)
+Size: 28px for advice text
+Layout: Mobile-first, with media queries to adjust layout for tablet and desktop screens.
+
+Code Structure
+HTML: Basic structure with a button to fetch advice and a div for displaying it.
+CSS: External stylesheet styles.css that handles layout, styling, and responsiveness.
+JavaScript: app.js handles API requests and updates the DOM with new advice.

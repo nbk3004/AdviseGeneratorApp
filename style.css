@@ -1,0 +1,113 @@
+/* General Reset and Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.752);
+
+}
+
+/* Container Styling */
+.container {
+    text-align: center;
+    background-color: grey;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 90%;
+    max-width: 375px;
+    /* Mobile Design */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Advice text styling */
+#advice {
+    font-size: 28px;
+    font-weight: 800;
+    color: rgb(7, 7, 7);
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+    font-style: italic;
+}
+
+/* Button Styling */
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 800;
+    background-color: hsl(150, 96%, 46%);
+    /* Neon Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: hsl(150, 79%, 15%);
+
+}
+
+
+
+/* Mobile (max-width: 375px) */
+@media (max-width: 375px) {
+    .container {
+        padding: 1.5rem;
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        font-size: 18px;
+
+    }
+}
+
+/* Tablets (min-width: 576px and max-width: 1024px) */
+@media (min-width: 576px) and (max-width: 1024px) {
+    .container {
+        max-width: 600px;
+        padding: 2rem;
+    }
+
+    button {
+        width: 100%;
+
+    }
+}
+
+/* Desktop (min-width: 1024px) */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 800px;
+        padding: 3rem;
+    }
+
+    button {
+        width: auto;
+        font-size: 18px;
+    }
+}
+
+/* Large Desktop (min-width: 1440px) */
+@media (min-width: 1440px) {
+    .container {
+        max-width: 900px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+}
