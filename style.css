@@ -32,7 +32,7 @@ body {
 #advice {
     font-size: 28px;
     font-weight: 800;
-    color:  hsl(217, 19%, 38%);
+    color:  whitesmoke;
     margin-bottom: 1.5rem;
     line-height: 1.4;
     font-style: italic;
@@ -44,7 +44,7 @@ button {
     font-size: 16px;
     font-weight: 800;
     background-color: hsl(150, 100%, 66%);
-     color: hsl(193, 38%, 86%);
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -55,6 +55,7 @@ button {
 /* Button Hover Effect */
 button:hover {
     background-color: hsl(150, 79%, 15%);
+    color: whitesmoke;
 
 }
 
