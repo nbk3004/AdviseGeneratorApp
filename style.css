@@ -1,4 +1,4 @@
-/* General Reset and Layout */
+/* General Layout */
 * {
     margin: 0;
     padding: 0;
@@ -11,14 +11,14 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: rgba(0, 0, 0, 0.752);
+    background-color:hsl(218, 23%, 16%);
 
 }
 
 /* Container Styling */
 .container {
     text-align: center;
-    background-color: grey;
+    background-color: hsl(217, 19%, 24%);
     border-radius: 8px;
     padding: 2rem;
     width: 90%;
@@ -32,7 +32,7 @@ body {
 #advice {
     font-size: 28px;
     font-weight: 800;
-    color: rgb(7, 7, 7);
+    color:  hsl(217, 19%, 38%);
     margin-bottom: 1.5rem;
     line-height: 1.4;
     font-style: italic;
@@ -43,9 +43,8 @@ button {
     padding: 12px 25px;
     font-size: 16px;
     font-weight: 800;
-    background-color: hsl(150, 96%, 46%);
-    /* Neon Green */
-    color: white;
+    background-color: hsl(150, 100%, 66%);
+     color: hsl(193, 38%, 86%);
     border: none;
     border-radius: 5px;
     cursor: pointer;
